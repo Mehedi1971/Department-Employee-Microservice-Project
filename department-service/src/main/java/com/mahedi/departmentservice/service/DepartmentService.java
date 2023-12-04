@@ -12,4 +12,6 @@ public interface DepartmentService {
     void deleteDepartment(Long id);
 
     void updateDepartment(Long id);
+
+    List<Department> getAllWithemployees();
 }
